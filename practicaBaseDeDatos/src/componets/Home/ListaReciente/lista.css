@@ -1,0 +1,33 @@
+/* ListaR.css */
+
+.table {
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    
+  }
+  
+  .table th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #297aa9;
+  }
+  

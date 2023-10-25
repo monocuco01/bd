@@ -1,0 +1,60 @@
+/* Encuestas.css */
+
+.encuestas-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.encuestas-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.encuestas-table th,
+.encuestas-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.encuestas-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.encuestas-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.encuestas-table tr:hover {
+  background-color: #ddd;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.pagination li {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.pagination a:hover {
+  background-color: #297aa9;
+}
+
+.active {
+  background-color: #297aa9;
+}

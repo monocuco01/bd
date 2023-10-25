@@ -1,0 +1,66 @@
+.containerHome{
+    margin: 30px;
+    
+}
+.containerHome p{
+    font-size: x-large;
+    font-weight: 600;
+}
+.cuadro{
+    background-color: rgb(235, 230, 230);
+    box-shadow: 1.5px 1.5px 1.5px rgb(197, 197, 197);
+    height: 131px;
+    width: 295px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.cuadro p{
+    font-size: medium;
+    font-weight: 600;
+}
+.circulo {
+    width: 60px;
+    height: 60px;
+    background-color: #3498db ; 
+    border-radius: 50%; 
+    margin-left:50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+   
+  }
+  .circulo .bi{
+   color: white;
+  }
+  .cuadro .texto{
+    width: 150px;
+  
+  }
+  .botonesHome{
+    height: 100px;
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .botonesHome .botones{
+    height: 50px;
+    width: 340px;
+    margin-right: 40px;
+    border: none;
+    box-shadow: 1px 1px 4px rgb(155, 154, 154);
+    font-size: medium;
+    background-color: rgb(235, 230, 230);
+  }
+  .botonesHome svg{
+    margin-left: 12px;
+    margin-bottom: 5px;
+    transform: scale(2);
+    color: rgb(0, 0, 0);
+  }
